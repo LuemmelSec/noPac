@@ -12,7 +12,7 @@ using System.Text;
 
 namespace noPac
 {
-    internal class Program
+    public class Program
     {
         public static string GetMAQDistinguishedName(string node, string container, string distinguishedName, string domain, bool verbose)
         {
